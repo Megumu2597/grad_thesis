@@ -4,14 +4,13 @@
 ##複数方策の模倣学習および逸脱時の行動変更モデル in ドア開けタスク
 同じ視覚情報で、開け方が押す引く2通りある環境で、2種類の開け方のデモデータから模倣学習。
 <p align="center">
-  <img width="345" height="304" src="./imgs/doorgym_video.gif">
-  <img width="345" height="304" src="./imgs/baxter.gif">
+  <img width="345" height="304" src="./pull.gif">
+  <img width="345" height="304" src="./push.gif">
 </p>
-
-
-- [x] Doo
-##
-
+テスト時には予測誤差に基づいて逸脱を認識し、行動を途中で変更する。
+<p align="center">
+  <img width="345" height="304" src="./anomaly.gif">
+</p>
 
 ### 0. タスク環境
 ファイルが増えすぎるのでこのディレクトリには入れていませんが、[DoorGym](https://github.com/PSVL/DoorGym)をcloneしてset upすると実際にシミュレーションできます。
@@ -30,9 +29,9 @@ python run_proposedmodel.py
 で学習をして,ロスを`~/proposed_model/loss_epoch:500_batch_512.png`に,
 モデルを`~/proposed_model/detector.json`に出力します。
 
-`propmodels.py`は以下の図に示すようなモデルを540行以降で実装している。比較実験のためのモデル(InfoGAIL)なども一部ここで定義されている。
+`propmodels.py`は以下の図に示すような提案モデルを540行以降で実装している。比較実験のためのモデル(InfoGAIL)なども一部ここで定義されている。
 <p align="center">
-  <img width="345" height="304" src="./archi.png">
+  <img width="395" height="204" src="./archi.png">
 </p>
 
 `proputils.py`は種々の必要な関数を定義している。
