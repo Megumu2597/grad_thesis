@@ -11,8 +11,9 @@
 
 ### 0. タスク環境
 [DoorGym](https://github.com/PSVL/DoorGym)をsubmoduleにしているので
-
-set upすると実際にシミュレーションできます。
+git submodule init
+git submodule update
+等で環境をset upすると実際にシミュレーションできます。
 
 ### 1. スクリプト説明
 提案手法は主に以下の3つのスクリプトによって実装されている。
