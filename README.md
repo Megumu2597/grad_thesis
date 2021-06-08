@@ -1,6 +1,3 @@
-# DoorGym
-
-[doorgym_video]: ./imgs/doorgym_video.gif
 ## 複数方策の模倣学習および逸脱時の行動変更モデル in ドア開けタスク
 同じ視覚情報で、開け方が押す引く2通りある環境で、2種類の開け方のデモデータから模倣学習。
 <p align="center">
@@ -13,7 +10,9 @@
 </p>
 
 ### 0. タスク環境
-ファイルが増えすぎるのでこのディレクトリには入れていませんが、[DoorGym](https://github.com/PSVL/DoorGym)をcloneしてset upすると実際にシミュレーションできます。
+[DoorGym](https://github.com/PSVL/DoorGym)をsubmoduleにしているので
+
+set upすると実際にシミュレーションできます。
 
 ### 1. スクリプト説明
 提案手法は主に以下の3つのスクリプトによって実装されている。
