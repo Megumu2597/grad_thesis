@@ -1,7 +1,7 @@
 # DoorGym
 
 [doorgym_video]: ./imgs/doorgym_video.gif
-##複数方策の模倣学習および逸脱時の行動変更モデル in ドア開けタスク
+## 複数方策の模倣学習および逸脱時の行動変更モデル in ドア開けタスク
 同じ視覚情報で、開け方が押す引く2通りある環境で、2種類の開け方のデモデータから模倣学習。
 <p align="center">
   <img width="345" height="304" src="./pull.gif">
