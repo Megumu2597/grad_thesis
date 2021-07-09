@@ -13,7 +13,7 @@
 [DoorGym](https://github.com/PSVL/DoorGym)をsubmoduleにしているので
 git submodule init
 git submodule update
-等で環境をset upすると実際にシミュレーションできます。
+等で環境をset up.
 
 ### 1. スクリプト説明
 提案手法は主に以下の3つのスクリプトによって実装されている。
